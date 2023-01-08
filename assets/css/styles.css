@@ -1,29 +1,33 @@
-.ul.list-group {
+body {
+    background-image: url(../img/imagen2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section.about {
+    margin-top: 12rem;
+}
+
+.list-group {
     --bs-list-group-bg: #50ac13;
 }
 
-/* github */
-i.fa-brands.fa-github.fa-1xl{
+/* Behance */
+i.fa-brands.fa-behance.fa-1xl:hover{
+    color:#0057ff
+    }
 
-}
-
-i.fa-brands.fa-github.fa-1xl:hover{
-color:aqua
-}
 /* linkedin */
-i.fa-brands.fa-linkedin.fa-1xl{
-
-}
-
-i.fa-brands.fa-linkedin.fa-1xl:hover{
+i.fa-brands.fa-linkedin-in.fa-1xl:hover{
 color:#0a66c2
 }
 
+/* github */
+i.fa-brands.fa-github.fa-1xl:hover{
+    color:aqua
+    }
+
 /* user */
-i.fa-brands.fa-linkedin.fa-1xl{
-
-}
-
 i.fa-solid.fa-user.fa-1xl:hover{
 color:aqua
 }
