@@ -1,11 +1,16 @@
+/* 
 body {
     background-image: url(../img/imagen2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
+*/
 
 section.about {
-    margin-top: 12rem;
+    margin-top: 3rem;
+}
+section.dashboard {
+    margin-top: 1rem;
 }
 
 .list-group {

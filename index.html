@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--ESTILO-->
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css" >
+    
     <title>Matias Bastino</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/0191feab37.js" crossorigin="anonymous"></script>
@@ -22,47 +23,91 @@
                     <li class="list-group-item"> <i class="fa-brands fa-github fa-1xl"></i> </li>
                     <li class="list-group-item"> 
                        <!-- Button trigger modal -->
-                        <i class="fa-solid fa-user fa-1xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">  
+                        <i class="fa-solid fa-user fa-1xl" type="button" data-bs-toggle="modal">  
                         </i>
                     </li>
                 </ul>
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
+</nav>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+              </div>
+            </div>
             <div class="mb-3 row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
-                </div>
+              <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword">
               </div>
-              <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-                <div class="col-sm-10">
-                  <input type="password" class="form-control" id="inputPassword">
-                </div>
-              </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Iniciar sesión</button>
-        </div>
+            </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Iniciar sesión</button>
       </div>
     </div>
   </div>
-</nav>
+</div>
+<!-- Carrusel-->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/Memorias-02.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/200 v2-02.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/c-02.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Sobre mi-->
 <section id="sobre mi" class="about">
     <div class="container text-center">
         <div class="row">
             <div class="col-3">
             <img src="assets/img/Foto 4x4.jpg" class="rounded-circle w-75" alt="..." title="">
             </div>
-         <div class="col-6 mt-4">
-            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ratione cum, repellendus sequi, quisquam nostrum illum cumque totam beatae ea adipisci tempore consectetur perferendis soluta voluptas laboriosam rerum error quae.</h5>
+         <div class="col-9 mt-2">
+            <h5>Soy Diseñador de Imagen y Sonido de la Universidad de Buenos Aires. 
+              Trabajé durante los últimos diez años en tareas de producción, cámara y edición de piezas audiovisuales para Jefatura de Gabinete de Ministros y para el Instituto de la Espacialidad Humana de la Facultad de Arquitectura, Diseño y Urbanismo (UBA).
+              Entre otras tareas, realicé la diagramación y maquetación de numerosas ediciones del libro “Memoria detallada del estado de la Nación” y la revista “Soberanía Sanitaria”. 
+              Además, cuento con experiencia certificada en Paquete Adobe: Indesign, Illustrator y Photoshop, certificado por la Universidad Nacional de Lomas de Zamora. 
+              Actualmente vivo en la Ciudad de Buenos Aires y me encuentro cursando Argentina Programa, para desarrollarme como programador web full-stack en busca de nuevos desafíos profesionales.</h5>
         </div>
         <div class="col-3"></div>
     </div>
