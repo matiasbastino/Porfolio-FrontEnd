@@ -14,7 +14,7 @@ section.dashboard {
 }
 
 .list-group {
-    --bs-list-group-bg: #50ac13;
+    --bs-list-group-bg: transparent;
 }
 
 /* Behance */

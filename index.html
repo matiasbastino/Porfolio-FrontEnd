@@ -23,32 +23,31 @@
                     <li class="list-group-item"> <i class="fa-brands fa-github fa-1xl"></i> </li>
                     <li class="list-group-item"> 
                        <!-- Button trigger modal -->
-                        <i class="fa-solid fa-user fa-1xl" type="button" data-bs-toggle="modal">  
+                        <i class="fa-solid fa-user fa-1xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">  
                         </i>
                     </li>
                 </ul>
-</nav>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Login in</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-          <div class="mb-3 row">
-              <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
-              </div>
-            </div>
-            <div class="mb-3 row">
-              <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-              <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword">
-              </div>
-            </div>
+        <div class="mb-3 row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary">Iniciar sesión</button>
@@ -56,6 +55,7 @@
     </div>
   </div>
 </div>
+</nav>
 <!-- Carrusel-->
 <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
