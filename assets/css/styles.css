@@ -14,7 +14,12 @@ section.dashboard {
 }
 
 .list-group {
-    --bs-list-group-bg: transparent;
+    --bs-body-bg: transparent;
+    --bs-border-width: transparent;
+}
+
+i.fa-brands.fa-behance.fa-1xl, i.fa-brands.fa-linkedin-in.fa-1xl, i.fa-brands.fa-github.fa-1xl, i.fa-solid.fa-user.fa-1xl {
+    color: white
 }
 
 /* Behance */
