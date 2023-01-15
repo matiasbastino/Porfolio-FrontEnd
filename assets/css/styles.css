@@ -1,13 +1,13 @@
-/* 
+
 body {
-    background-image: url(../img/imagen2.jpg);
+    background-image: url(../img/fadu.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
-*/
+
 
 section.about {
-    margin-top: 3rem;
+    margin-top: 30rem;
 }
 section.dashboard {
     margin-top: 1rem;
